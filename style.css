@@ -1,10 +1,14 @@
 body {
     background-color: #a9d7d1;
+    font-family: 'Raleway';
 }
 
 #title {
-    font-family: 'Raleway';
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
+}
+
+#survey-form {
+    background-color: white;
 }
