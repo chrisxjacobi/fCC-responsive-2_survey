@@ -12,10 +12,22 @@
     <main>
         <form id="survey-form">
             <p id="description">Let us know how we can improve freeCodeCamp!</p>
-            Name: <input id="name" type="text" placeholder="Enter your name" required><br>
-            Email: <input id="email" type="email" placeholder="Enter your email" required><br>
-            Age: <input id="number" type="number" placeholder="Age">
-
+            <label for="name" id="name-label">*Name: </label>
+            <input id="name" type="text" placeholder="Enter your name" required><br>
+            <label for="email" id="email-label">*Email: </label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+            <label for="number" id="number-label">*Age: </label>
+            <input id="number" type="number" placeholder="Age">
+            <label for="dropdown">Which option best describes your current role?</label>
+            <select id="dropdown">
+                <option value="" disable selected>Select an option</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+            </select>
+            
 
         </form>
 
