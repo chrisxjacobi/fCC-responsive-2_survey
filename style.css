@@ -1,6 +1,7 @@
 body {
     background-color: #a9d7d1;
     font-family: 'Raleway';
+    text-align: center;
 }
 
 #title {
@@ -11,4 +12,21 @@ body {
 
 #survey-form {
     background-color: white;
+    border-radius: 5px;
+}
+
+.row-info {
+    display: block;
+}
+
+.left{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+
+.right {
+    width: 35%;
+    display: inline-block;
+    text-align: left;
 }
