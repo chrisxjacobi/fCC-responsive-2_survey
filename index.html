@@ -17,7 +17,7 @@
             <label for="email" id="email-label">*Email: </label>
             <input id="email" type="email" placeholder="Enter your email" required>
             <label for="number" id="number-label">*Age: </label>
-            <input id="number" type="number" placeholder="Age">
+            <input id="number" type="number" placeholder="Age" min="1" max="110">
             <label for="dropdown">Which option best describes your current role?</label>
             <select id="dropdown">
                 <option value="" disable selected>Select an option</option>
@@ -27,10 +27,10 @@
                 <option value="Prefer not to say">Prefer not to say</option>
                 <option value="Other">Other</option>
             </select>
-            <label for="name">*How likely is that you would recommend freeCodeCamp to a friend?</label>
-            <label><input type="radio" name="name">Definitely</label>
-            <label><input type="radio" name="name">Maybe</label>
-            <label><input type="radio" name="name">Not sure</label>
+            <label for="radio">*How likely is that you would recommend freeCodeCamp to a friend?</label>
+            <label><input type="radio" name="radio" value="Definitely">Definitely</label>
+            <label><input type="radio" name="radio" value="Maybe">Maybe</label>
+            <label><input type="radio" name="radio" value="Not sure">Not sure</label>
             <label for="dropdown-two">What do you like most in FCC:</label>
             <select id="dropdown-two">
                 <option value="" disable selected>Select an option</option>
@@ -39,12 +39,27 @@
                 <option value="Community">Community</option>
                 <option value="Open Source">Open Source</option>
             </select>
-
+            <label>Things that should be improved in the future
+(Check all that apply):</label>
+            <label><input type="checkbox" name="improvements" value="Front-end Projects">Front-end Projects</label>
+            <label><input type="checkbox" name="improvements" value="Back-end Projects">Back-end Projects</label>
+            <label><input type="checkbox" name="improvements" value="Data Visualization">Data Visualization</label>
+            <label><input type="checkbox" name="improvements" value="Challenges">Challenges</label>
+            <label><input type="checkbox" name="improvements" value="Open source Community">Open Source Community</label>
+            <label><input type="checkbox" name="improvements" value="Gitter help rooms">Gitter help rooms</label>
+            <label><input type="checkbox" name="improvements" value="Videos">Videos</label>
+            <label><input type="checkbox" name="improvements" value="City Meetups">City Meetups</label>
+            <label><input type="checkbox" name="improvements" value="Wiki">Wiki</label>
+            <label><input type="checkbox" name="improvements" value="Forum">Forum</label>
+            <label><input type="checkbox" name="improvements" value="Additional courses">Additional courses</label>
+            <label for="text-area">Any Comments or Suggestions?</label>
+            <textarea id="text-area"></textarea>
+            <button type="submit" id="submit">Submit</button>
         </form>
 
     </main>
 
-<!--        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
