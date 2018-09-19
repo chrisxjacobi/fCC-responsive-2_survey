@@ -13,20 +13,24 @@ body {
 #survey-form {
     background-color: white;
     border-radius: 5px;
+    padding-top: 2%;
 }
 
 .row-info {
     display: block;
+    padding: 1%;
 }
 
 .left{
     width: 30%;
     display: inline-block;
     text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
 }
 
 .right {
-    width: 35%;
+    width: 45%;
     display: inline-block;
     text-align: left;
 }
