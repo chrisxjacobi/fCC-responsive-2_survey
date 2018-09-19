@@ -15,7 +15,7 @@ body {
     background-color: #fafafa;
     border-radius: 5px;
     margin: 0 auto;
-    width: 70%;
+    width: 65%;
     padding: 2%;
 }
 
@@ -29,7 +29,7 @@ body {
     display: inline-block;
     text-align: right;
     vertical-align: top;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .right {
@@ -38,9 +38,14 @@ body {
     text-align: left;
 }
 
+#dropdown, #dropdown-two {
+    height: 35px;
+    width: auto;
+}
+
 .input-field {
     height: 20px;
-    width: 200px;
+    width: 170px;
     border-radius: 4px;
     border: solid 1px;
 }
@@ -51,7 +56,7 @@ body {
 
 textarea {
     height: 80px;
-    width: 200px;
+    width: 170px;
     border-radius: 4px;
 }
 
@@ -64,4 +69,26 @@ button {
     margin-top: 2%;
     padding: 10px;
     border-radius: 4px;
+}
+
+@media (max-width: 580px) {
+    .row-info {
+        padding: 2%;
+    }
+    #title {
+        font-size: 20px;
+    }
+
+    #survey-form {
+        font-size: 12px;
+    }
+    
+    .input-field {
+        width: 120px;
+    }
+    
+    #text-area {
+        width: 120px;
+    }
+    
 }
